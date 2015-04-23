@@ -67,7 +67,10 @@ namespace logprobs
         /* try/catch for error message, assert to force a crash */
         try{
             if (y > x) {
-                throw std::invalid_argument("Log Subtraction Error: subtracted a larger number from a smaller one and tried to take the log of a negative number");
+                throw std::invalid_argument(
+                    "Log Subtraction Error: subtracted a larger number from a "
+                    "smaller one and tried to take the log of a negative number"
+                );
             }
         }
         catch( const std::invalid_argument& e ) {
