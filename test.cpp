@@ -7,7 +7,7 @@
 int main ()
 {
     
-    double epsilon = 1.0e-14;
+    double epsilon = 1.0e-13;
     
     std::cout << "enter a probability value p between 0 and 1" << std::endl;
     logprobs::prob p;
