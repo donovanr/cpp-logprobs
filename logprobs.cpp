@@ -2,6 +2,7 @@
 #include <cmath>
 #include <iostream>
 #include <cassert>
+#include <stdexcept>
 
 namespace logprobs
 {
